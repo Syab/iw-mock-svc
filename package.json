@@ -1,0 +1,31 @@
+{
+  "name": "iw-mock-svc",
+  "version": "1.0.0",
+  "description": "just a mock service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon --exec babel-node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syab/iw-mock-svc.git"
+  },
+  "author": "syab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syab/iw-mock-svc/issues"
+  },
+  "homepage": "https://github.com/Syab/iw-mock-svc#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
