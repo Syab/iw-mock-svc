@@ -29,3 +29,7 @@ app.get('/health', (req, res) => {
         "environmentvars": process.env.HEALTH
     });
 });
+
+app.listen(PORT, () => {
+    console.log(`Application Started on port ${PORT}!`);
+});
